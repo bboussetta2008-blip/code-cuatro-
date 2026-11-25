@@ -1,9 +1,9 @@
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -std=c11 -D_POSIX_C_SOURCE=200809L
+CFLAGS = -Wall -Wextra -std=c11 -D_POSIX_C_SOURCE=200809L
 
 NAME = ocsh
-SRC = src/main.c
+SRC = code/ocsh.c
 
 all: $(NAME)
 
